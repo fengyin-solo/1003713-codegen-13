@@ -35,3 +35,24 @@ body { margin: 0; background: #f6f8fb; color: #1f2937; }
 .error-text { color: #b42318; }
 .status-legend { display: flex; flex-wrap: wrap; gap: 12px; margin: 0 0 10px; font-size: 12px; color: var(--muted); }
 .legend-item { background: #eef2f7; border-radius: 999px; padding: 2px 10px; }
+
+/* 检修编组台 */
+.rule-box { background: #eef4ff; border: 1px solid #c7dbff; border-radius: 8px; padding: 8px 12px; font-size: 12px; color: #1e3a8a; }
+.section-title { margin: 16px 0 8px; font-size: 14px; }
+.row-disabled { color: var(--muted); background: #f8fafc; }
+.tag { display: inline-block; margin-left: 4px; padding: 0 6px; border-radius: 999px; background: #fef3c7; color: #92400e; font-size: 11px; }
+.hint { font-size: 12px; color: var(--muted); align-self: center; }
+.ok-text { color: #067647; }
+.risk-badge { display: inline-block; min-width: 28px; text-align: center; border-radius: 999px; padding: 1px 8px; font-size: 12px; }
+.risk-badge[data-level='高'] { background: #fee4e2; color: #b42318; }
+.risk-badge[data-level='中'] { background: #fef0c7; color: #b54708; }
+.risk-badge[data-level='低'] { background: #dcfae6; color: #067647; }
+.risk-badge[data-level='未知'] { background: #eef2f7; color: var(--muted); }
+.batch-status { display: inline-block; border-radius: 999px; padding: 1px 8px; font-size: 12px; background: #eef2f7; }
+.batch-status[data-status='已完成'] { background: #dcfae6; color: #067647; }
+.batch-status[data-status='失败待续做'] { background: #fee4e2; color: #b42318; }
+.batch-status[data-status='待提交'] { background: #fef0c7; color: #b54708; }
+.batch-status[data-status='已作废'] { background: #eef2f7; color: var(--muted); }
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+a.btn { text-decoration: none; color: inherit; display: inline-block; }
+a.btn.primary { color: #fff; }

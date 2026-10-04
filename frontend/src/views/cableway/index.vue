@@ -6,7 +6,8 @@
         <p class="page-desc">维护测流缆道，围绕缆道编号、所属站点、跨度米数、建成日期做登记、筛选与状态流转。</p>
       </div>
       <div class="page-actions">
-        <button class="btn primary" type="button" @click="openCreate">登记测流缆道</button>
+        <RouterLink class="btn primary" to="/cableway/grouping">检修编组台</RouterLink>
+        <button class="btn" type="button" @click="openCreate">登记测流缆道</button>
         <button class="btn" type="button" @click="exportRows">导出测流缆道清单</button>
       </div>
     </header>
